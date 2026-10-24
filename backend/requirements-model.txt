@@ -1,0 +1,19 @@
+# Optional: install these to run a real open-source text-to-video model.
+#   pip install -r requirements.txt -r requirements-model.txt
+#
+# Every package below is free and open-source. Nothing here needs an API key.
+# A GPU is strongly recommended; CPU inference is possible but very slow.
+
+# Deep learning runtime (use the CPU wheel if you have no GPU).
+torch>=2.2
+
+# Hugging Face Diffusers ships ready-to-run text-to-video pipelines.
+diffusers>=0.30
+transformers>=4.41
+accelerate>=0.30
+safetensors>=0.4
+
+# Frame encoding helpers.
+imageio>=2.34
+imageio-ffmpeg>=0.5
+Pillow>=10.3

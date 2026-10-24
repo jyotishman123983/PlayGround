@@ -1,0 +1,17 @@
+{
+  "name": "ViralYantra AI — Video Generator Studio",
+  "short_name": "ViralYantra",
+  "description": "Mobile-first AI video generator prototype. Demo mode renders sample clips locally and never pretends to be real AI output.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b0714",
+  "theme_color": "#0b0714",
+  "categories": ["video", "productivity", "utilities"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

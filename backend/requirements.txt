@@ -1,0 +1,15 @@
+# ViralYantra AI — reference generation backend
+#
+# This server is intentionally honest: it refuses to return a result unless a
+# real engine is configured. The default `unavailable` engine answers
+# /api/health with status "unavailable" so the web app stays in demo mode.
+#
+# Core API dependencies (small, install in seconds):
+fastapi>=0.111,<1.0
+uvicorn[standard]>=0.30
+pydantic>=2.7
+python-multipart>=0.0.9
+
+# The open-source model itself is optional and heavy. Install it only when you
+# are ready to run a real model (see requirements-model.txt and README.md):
+#   pip install -r requirements-model.txt
