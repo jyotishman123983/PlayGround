@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#07070f">
+  <meta name="description" content="ViralYantra AI — turn ideas into scene-based viral Shorts and long videos.">
+  <title>ViralYantra AI — AI Video Studio</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <div id="app">
+    <div class="boot-screen">
+      <div class="boot-logo">
+        <svg viewBox="0 0 64 64" width="58" height="58" aria-hidden="true">
+          <defs>
+            <linearGradient id="bootGrad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#a78bfa"/>
+              <stop offset=".55" stop-color="#ec4899"/>
+              <stop offset="1" stop-color="#22d3ee"/>
+            </linearGradient>
+          </defs>
+          <rect x="4" y="4" width="56" height="56" rx="18" fill="url(#bootGrad)" opacity=".18"/>
+          <path d="M25 20.5 46 32 25 43.5Z" fill="url(#bootGrad)"/>
+          <path d="M46 16.5 48.2 22l5.5 2.2-5.5 2.2L46 32l-2.2-5.6-5.5-2.2 5.5-2.2Z" fill="#f8fafc" opacity=".92"/>
+        </svg>
+      </div>
+      <div class="boot-wordmark">ViralYantra <span>AI</span></div>
+      <div class="boot-bar"><span></span></div>
+    </div>
+    <noscript><div class="noscript">ViralYantra AI needs JavaScript enabled to sign in securely.</div></noscript>
+  </div>
+  <div id="toasts" class="toasts" role="status" aria-live="polite"></div>
+  <div id="modal-root"></div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

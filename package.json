@@ -1,0 +1,18 @@
+{
+  "name": "viralyantra-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "ViralYantra AI - secure scene-based AI video studio with WhatsApp OTP, token wallet and admin console",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "test": "node --test --test-concurrency=1 test/*.test.mjs"
+  },
+  "optionalDependencies": {
+    "ffmpeg-static": "^5.2.0"
+  }
+}
